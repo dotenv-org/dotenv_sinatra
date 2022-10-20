@@ -1,7 +1,7 @@
 # server.rb
 require 'sinatra'
-
+require 'dotenv-vault/load'
 
 get '/' do
-  "Welcome to"
+  "Welcome to #{ENV["HELLO"]}"
 end

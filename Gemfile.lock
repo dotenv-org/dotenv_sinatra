@@ -85,5 +85,8 @@ DEPENDENCIES
   dotenv-vault-rails
   sinatra
 
+RUBY VERSION
+   ruby 2.7.4p191
+
 BUNDLED WITH
    2.1.4
